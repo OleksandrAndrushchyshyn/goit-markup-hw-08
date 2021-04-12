@@ -1,0 +1,31 @@
+.services-section {
+  padding-top: 47px;
+  padding-bottom: var(--section-pb);
+}
+.serv-list {
+  display: flex;
+}
+.serv-list__item {
+  flex-basis: calc((100% - 60px) / 3);
+  position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.overlay-serv {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+}
