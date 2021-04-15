@@ -24,6 +24,9 @@
     }
     width: 270px;
     flex-basis: calc((100% - 90px) / 3);
+    &:last-child {
+      margin-bottom: 30px;
+    }
   }
 }
 .card-item-content {

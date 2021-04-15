@@ -148,7 +148,6 @@
   }
   .navs-link {
     position: relative;
-    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -162,6 +161,7 @@
     &.current::after {
       position: absolute;
       left: 0;
+      top: 45px;
       bottom: 0;
       content: "";
       display: block;
