@@ -1,14 +1,30 @@
 .portfolio-section {
-  padding-top: var(--section-pt);
-  padding-bottom: var(--section-pb);
+  padding-top: var(--section-mob-tab-pt);
+  padding-bottom: var(--section-mob-tab-pb);
+  @media screen and (min-width: 1200px) {
+    padding-top: var(--section-pt);
+    padding-bottom: var(--section-pb);
+  }
 }
 .port-nav-list {
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 35px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
 }
 .port-nav-list__item:not(:last-child) {
   margin-right: 8px;
+  margin-bottom: 15px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: unset;
+  }
 }
 .port-nav-btn {
   padding: 6px 22px;
