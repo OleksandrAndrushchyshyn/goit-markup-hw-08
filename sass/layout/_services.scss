@@ -1,6 +1,10 @@
 .services-section {
+  display: none;
   padding-top: 47px;
   padding-bottom: var(--section-pb);
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
 }
 .serv-list {
   display: flex;

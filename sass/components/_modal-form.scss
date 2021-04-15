@@ -1,4 +1,5 @@
 .modal-text {
+  display: block;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -77,8 +78,8 @@
   align-items: center;
   align-self: center;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.16;
   margin-top: 20px;
   margin-bottom: 30px;
   letter-spacing: 0.03em;
@@ -91,6 +92,10 @@
     border: 1px solid #000000;
     margin-right: 8px;
     cursor: pointer;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
   }
 }
 .modal-form-term:checked + .modal-form-chek-desc::before {
@@ -107,7 +112,11 @@
 .modal-form-link {
   color: var(--accent-color);
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
