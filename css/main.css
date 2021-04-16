@@ -346,12 +346,15 @@ img {
 }
 
 .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   z-index: 999;
   position: fixed;
   top: 0;
   left: 50%;
   width: 100vw;
-  max-width: 480px;
+  max-width: 767px;
   height: 100vh;
   padding: 48px 40px;
   background-color: #ffffff;
@@ -501,7 +504,6 @@ img {
 }
 
 .headers__tel-link {
-  margin-top: 270px;
   margin-bottom: 32px;
   font-weight: 500;
   font-size: 34px;
