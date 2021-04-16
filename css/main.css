@@ -353,8 +353,7 @@ img {
   position: fixed;
   top: 0;
   left: 50%;
-  width: 100vw;
-  max-width: 767px;
+  width: 100%;
   height: 100vh;
   padding: 48px 40px;
   background-color: #ffffff;
@@ -385,6 +384,7 @@ img {
 
 .mobile-menu__social-list {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 64px;
 }
 
